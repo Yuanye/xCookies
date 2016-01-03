@@ -24,10 +24,10 @@ function sendCookies(data) {
   data: JSON.stringify({"data": data}),
   dataType: "json",
   success: function () {
-    alert("Success! Thanks!");
+    alert("成功了！");
   },
   error: function(response) {
-    alert("Failed!")
+    alert("失败了！")
   }
 });
 }
