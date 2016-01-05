@@ -19,7 +19,7 @@ function Timer() {
 function sendCookies(data) {
   $.ajax({
   type: "POST",
-  url: "https://bi.liwushuo.com/api/ali/cookies",
+  url: "https://bi.liwushuo-inc.com/api/ali/cookies",
   contentType: 'application/json',
   data: JSON.stringify({"data": data}),
   dataType: "json",
